@@ -1,0 +1,44 @@
+*{
+  margin:0;
+}
+.sidefixed{
+  display:flex;
+}
+.sidebar{
+  color: #0e0d0d;
+}
+.topper{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  align-items:center;
+  padding:20px 15px;
+}
+.logo{
+  font-size: 35px;
+}
+.more{
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link{
+  align-items: center;
+  display: flex;
+  color: #fff;
+  padding: 10px 10px 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background:rgb(205, 210, 213);
+  color: #000;
+  transition: all 0.5s;
+}
+.active{
+  background: rgb(205, 210, 213);;
+  color: #000;
+}
+.icon, .link_text{
+  font-size: 20px;
+}
